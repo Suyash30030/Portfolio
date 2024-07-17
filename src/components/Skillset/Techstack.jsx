@@ -6,6 +6,7 @@ import {
   DiNodejs,
   DiPostgresql,
   DiJava,
+  DiGit,
 } from "react-icons/di";
 import {
   SiExpress,
@@ -39,6 +40,8 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
+        <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
     </Row>
   );
