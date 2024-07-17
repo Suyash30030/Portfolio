@@ -24,7 +24,8 @@ const About = () => {
                  and I'm from <span className="yellow"> Bhubaneshwar,India.</span>
                 <br />
                 <br />
-                I am a Final Year Student at KIIT University graduating in 2025.
+{/*                 I am a Btech Final Year Student at KIIT University specializing in Electronics & Computer Science graduating in 2025. */}
+                    Final year B.Tech student specializing in Electronics & Computer Science at KIIT University, graduating in 2025.
                 <br />
                 <br />
                   As a
