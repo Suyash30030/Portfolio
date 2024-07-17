@@ -13,7 +13,7 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <span>Dedicated to creating impactful solutions!</span>
+            <span>Made with ❤️ by Suyash!</span>
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
