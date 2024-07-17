@@ -23,7 +23,7 @@ const Contact = () => {
       setNotDone(true)
     } else {
       
-      //  Please use your own credentials from emailjs or i will recive your email
+      
       
     emailjs
       .sendForm(
@@ -59,7 +59,7 @@ const Contact = () => {
                 <textarea name="message" className="user" placeholder="Message" onChange={handleChange} />
                 <span className='not-done' >{notDone && "Please, fill all the input field"}</span>
                 <Button type="submit" className="button" disabled={done}>Send</Button>
-                <span className='done'>{done && "Thanks for contacting me and be sure i have recieved your mail. Also if you need me, you can conatct me on Linkedin."}</span>
+                <span className='done'>{done && "Thanks for contacting me !"}</span>
                 </form>
             </Col>
             </Row>
