@@ -92,7 +92,7 @@ const About = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
-                      aria-label="twitter"
+                      aria-label="InstaGram"
                     >
                       <AiOutlineInstagram />
                     </a>
