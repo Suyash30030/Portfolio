@@ -33,14 +33,11 @@ const Techstack = () => {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
-        <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
     </Row>
