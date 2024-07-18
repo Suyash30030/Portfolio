@@ -9,9 +9,6 @@ import {
   DiPostgresql,
 } from "react-icons/di";
 import {
-  // SiMaterialui,
-  // SiGraphql,
-  // SiSolidity,
   SiHtml5,
   SiExpress,
   SiCss3,
@@ -39,9 +36,6 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
-{/*       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
       </Col>
