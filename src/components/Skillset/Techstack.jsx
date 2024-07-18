@@ -11,8 +11,7 @@ import {
 import {
   SiHtml5,
   SiExpress,
-  SiCss3,
-  SiHtml5
+  SiCss3
 } from "react-icons/si";
 
 const Techstack = () => {
