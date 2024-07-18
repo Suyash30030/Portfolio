@@ -5,24 +5,21 @@ import {
   DiReact,
   DiNodejs,
   DiGit,
-  DiJava,
-  DiPostgresql,
 } from "react-icons/di";
 import {
-  SiHtml5,
-  SiExpress,
-  SiCss3,
+  SiMaterialui,
+  SiGraphql,
+  SiSolidity,
+  SiRedux,
+  SiMongodb,
+  SiHtml5
 } from "react-icons/si";
-import { styleText } from "util";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -34,13 +31,19 @@ const Techstack = () => {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+        <SiGraphql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSolidity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMaterialui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
