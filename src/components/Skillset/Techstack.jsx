@@ -9,6 +9,7 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
+  SiGit,
   SiExpress,
   SiMongodb,
   SiHtml5,
@@ -32,14 +33,19 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      <col xs={4} md={2} className="tech-icons">
+      <SiGit />
+      </col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
       </Col>
+      
     </Row>
   );
 }
