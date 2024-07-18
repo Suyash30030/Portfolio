@@ -24,7 +24,6 @@ const Contact = () => {
     } else {
       
       
-      
     emailjs
       .sendForm(
         "service_c6ttbda",
