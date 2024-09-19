@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineInstagram
+  AiOutlineInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -37,14 +38,25 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  aria-label="twitter"
+                  aria-label="instagram"
                 >
                   <AiOutlineInstagram />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/suyash-parganiha-bab798253"
+                  href="https://x.com/Suyash03_30"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="X"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/suyash-parganiha-bab798253"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -60,4 +72,4 @@ const Footer = () => {
     );  
 }
 
-export default Footer
+export default Footer;
