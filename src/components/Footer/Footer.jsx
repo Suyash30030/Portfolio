@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
-import { FaLinkedinIn, FaXTwitter } from "react-icons/fa"; // Import FaXTwitter
+import { FaLinkedinIn } from "react-icons/fa"; 
 
 const Footer = () => {
     let date = new Date();
@@ -50,7 +51,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   aria-label="X"
                 >
-                  <FaXTwitter /> {/* Replaced AiOutlineTwitter with FaXTwitter */}
+                  <AiOutlineTwitter /> 
                 </a>
               </li>
               <li className="social-icons">
