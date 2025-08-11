@@ -9,6 +9,7 @@ import porsche from "../assets/projects/Porsche.png";
 import regis from "../assets/projects/Registration.png";
 import landing from "../assets/projects/Landing-Page.png";
 
+// Project images from web
 const olaAnalysis = "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
 const payrollSystem = "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
 const amazonDashboard = "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
@@ -33,7 +34,7 @@ const Projects = () => {
               isBlog={false}
               title="OLA Ride Cancellation Analysis"
               description="Analyzed trip cancellation data using SQL to uncover time-based and user-type patterns. Developed interactive Power BI visuals to monitor user behavior and cancelation hotspots, providing actionable insights for improving ride completion rates and customer satisfaction."
-              ghLink="#"
+              ghLink="https://github.com/Suyash30030/Data_Analyst_Projects/blob/main/Ola_Data-Analysis.pdf"
             />
           </Col>
 
@@ -44,7 +45,7 @@ const Projects = () => {
               isBlog={false}
               title="Payroll Database System (MySQL)"
               description="Built complete payroll management system with employee data, attendance, and salary processing. Designed 5-table normalized database with proper relationships and constraints. Created 15+ SQL queries for reporting including department analytics and overtime tracking."
-              ghLink="#"
+              ghLink="https://github.com/Suyash30030/Data_Analyst_Projects/blob/main/Payoll.sql"
             />
           </Col>
 
@@ -55,17 +56,7 @@ const Projects = () => {
               isBlog={false}
               title="Amazon Sales Dashboard"
               description="Built sales analytics dashboard analyzing revenue across product categories and regions. Designed visualizations for courier status tracking, category performance, and state-wise distribution with dynamic filtering capabilities for comprehensive business intelligence."
-              ghLink="#"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatApp}
-              isBlog={false}
-              title="Nodejs ChatApp using Api"
-              description="A Node.js ChatApp using APIs is a real-time messaging application built on the Node.js runtime environment. It leverages APIs to facilitate communication between users, allowing them to send and receive messages instantly. The application provides a seamless chat experience by utilizing asynchronous event-driven architecture, making it efficient and scalable for handling multiple users concurrently."
-              ghLink="https://github.com/Suyash30030/Nodejs-Chat-App-using-Api"
+              ghLink="https://github.com/Suyash30030/Data_Analyst_Projects/blob/main/Amazon%20Sales%20Report.pdf"
             />
           </Col>
 
