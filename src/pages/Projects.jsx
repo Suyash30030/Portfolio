@@ -9,18 +9,56 @@ import porsche from "../assets/projects/Porsche.png";
 import regis from "../assets/projects/Registration.png";
 import landing from "../assets/projects/Landing-Page.png";
 
+const olaAnalysis = "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
+const payrollSystem = "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
+const amazonDashboard = "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
+
 const Projects = () => {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent <strong className="yellow">Works </strong>
+          Latest <strong className="yellow">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on .
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          {/* OLA Ride Cancellation Analysis */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={olaAnalysis}
+              isBlog={false}
+              title="OLA Ride Cancellation Analysis"
+              description="Analyzed trip cancellation data using SQL to uncover time-based and user-type patterns. Developed interactive Power BI visuals to monitor user behavior and cancelation hotspots, providing actionable insights for improving ride completion rates and customer satisfaction."
+              ghLink="#"
+            />
+          </Col>
+
+          {/* Payroll Database System */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={payrollSystem}
+              isBlog={false}
+              title="Payroll Database System (MySQL)"
+              description="Built complete payroll management system with employee data, attendance, and salary processing. Designed 5-table normalized database with proper relationships and constraints. Created 15+ SQL queries for reporting including department analytics and overtime tracking."
+              ghLink="#"
+            />
+          </Col>
+
+          {/* Amazon Sales Dashboard */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazonDashboard}
+              isBlog={false}
+              title="Amazon Sales Dashboard"
+              description="Built sales analytics dashboard analyzing revenue across product categories and regions. Designed visualizations for courier status tracking, category performance, and state-wise distribution with dynamic filtering capabilities for comprehensive business intelligence."
+              ghLink="#"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatApp}
