@@ -6,8 +6,8 @@ const Type = () => {
         <Typewriter
           options={{
             strings: [
-              "Frontend Developer",
-              "Passionate Blockchain Enthusiast"
+              "Data Analyst",
+              "Consultant"
             ],
             autoStart: true,
             loop: true,
@@ -16,5 +16,6 @@ const Type = () => {
         />
       )
 }
+
 
 export default Type
