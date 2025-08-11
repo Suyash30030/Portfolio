@@ -10,7 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/Suyash30030/Resume/main/Suyash_ResumeNew%20(1).pdf`
+const resumeLink = `https://raw.githubusercontent.com/Suyash30030/Resume/main/Resume_v5.pdf`
 
 
 const Resume = () => {
@@ -60,3 +60,4 @@ const Resume = () => {
 }
 
 export default Resume
+
