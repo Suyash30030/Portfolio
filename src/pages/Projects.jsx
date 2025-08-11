@@ -9,7 +9,7 @@ import porsche from "../assets/projects/Porsche.png";
 import regis from "../assets/projects/Registration.png";
 import landing from "../assets/projects/Landing-Page.png";
 
-// Project images from web
+
 const olaAnalysis = "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
 const payrollSystem = "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
 const amazonDashboard = "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80";
@@ -120,3 +120,4 @@ const Projects = () => {
 }
 
 export default Projects
+
